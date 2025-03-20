@@ -21,7 +21,6 @@ html {
 
 body {
   background-color: var(--off-white);
-  /* background-color: red; */
 }
 
 a {
@@ -70,9 +69,6 @@ header {
 }
 
 .main-container {
-  /* display: flex;
-  flex-direction: column; */
-  /* padding: 1.5rem 1rem 2rem; */
   padding: clamp(1.5rem, 5vw, 3.5rem) clamp(1rem, 5vw, 7rem) clamp(2rem, 5vw, 5rem);
 }
 
@@ -83,17 +79,12 @@ header {
   gap: 3rem;
 }
 
-/* .inner-1, .top {
-  height: fit-content;
-} */
-
 .logo img {
   inline-size: clamp(65%, 5vw, 130%);
 }
 
 .header-links {
   display: none;
-  /* animation: slide-out .3s ease-out; */
 }
 
 .header-links.visible {
@@ -160,25 +151,17 @@ header {
 .inner1-text2 p,
 .feature-copy {
   font-size: clamp(.82rem, 4vw, 1.1rem);
-  /* font-size: .82rem; */
   line-height: 1.7;
   color: var(--dark-grayish-blue);
-  /* font-weight: 400; */
 }
-
-/* .inner1-text2 {
-  font-size: clamp(.82rem, 4vw, 1.5rem);
-} */
 
 .top p {
   padding-bottom: clamp(1.7rem, 5vw, 3rem);
 }
 
 .top-button {
-  /* padding: .75rem 2rem; */
   padding: clamp(.75rem, 4vw, 1rem) clamp(2rem, 5vw, 3.5rem);
   font-size: clamp(.6rem, 3vw, .9rem);
-  /* font-size: .6rem; */
   font-weight: 800;
   color: var(--very-dark-blue);
   letter-spacing: 2px;
@@ -196,7 +179,6 @@ header {
   display: grid;
   gap: 1.5rem;
   background-color: var(--very-dark-blue);
-  /* padding: 1.3rem 1rem; */
   padding: clamp(1.3rem, 5vw, 2.5rem) clamp(1rem, 5vw, 2rem);
 }
 
@@ -270,9 +252,6 @@ header {
 }
 
 @media (min-width: 800px) {
-  /* body {
-    padding: 0 3rem;
-  } */
   .header-links {
     display: flex;
     flex-direction: row;
@@ -290,14 +269,10 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     aspect-ratio: 2 / 1;
-    /* max-height: calc(100% * (9 / 16)); */
   }
   .inner-1 {
     flex-direction: row;
   }
-  /* .bottom {
-    margin-top: 0.5rem;
-  } */
   .bottom,
   .inner1-text {
     display: flex;
@@ -307,8 +282,6 @@ header {
     grid-template-columns: .5fr .5fr;
     gap: 4rem;
     transform: translateY(-3rem);
-    /* height: fit-content; */
-    /* width: 100%; */
   }
   .inner1-text2 p {
     word-break: break;
@@ -333,7 +306,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* width: fit-content; */
   }
   .feature-copy {
     white-space: break;

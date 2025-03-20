@@ -11,7 +11,7 @@ Users should be able to:
 
 ![](./screenshot.png)
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/news-homepage-N0WEedTbFm)
 - [Live Site](https://lspacka.github.io/FEM-news-homepage-main/)
 
 ### Built with
