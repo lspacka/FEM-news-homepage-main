@@ -2,7 +2,7 @@ const overlay = document.querySelector('.overlay')
 const burger = document.querySelector('.burger-button')
 const links = document.querySelector('.header-links')
 const close_menu = document.querySelector('.close-menu')
-const media_query = window.matchMedia('(min-width: 800px)')
+const media_query = window.matchMedia('(min-width: 1200px)')
 
 function handleViewportChange(event) {
     if (event.matches) {

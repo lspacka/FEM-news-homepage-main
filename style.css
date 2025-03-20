@@ -251,7 +251,7 @@ header {
   color: var(--soft-red);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1200px) {
   .header-links {
     display: flex;
     flex-direction: row;
